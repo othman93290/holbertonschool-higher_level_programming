@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+""" Square """
+
+
 class Square:
-    """Defines a square"""
+    """ Square """
+
     def __init__(self, size):
-        """Initialises the data"""
-        self.__size = size
+        self._Square__size = size
