@@ -1,8 +1,9 @@
 #!/usr/bin/python3
+""" MyList """
+
 
 class MyList(list):
-    """A subclass of list."""
+    """ MyList """
 
     def print_sorted(self):
-        """Print the list sorted."""
         print(sorted(self))
